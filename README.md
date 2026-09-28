@@ -9,6 +9,20 @@ later. For React Native and Expo, use the `@trueorigin/react-native` package ins
 
 ## Install
 
+The SDK is on Maven Central. In your app module's `build.gradle.kts`, with
+`mavenCentral()` and `google()` among your repositories:
+
+```kotlin
+dependencies {
+    implementation("dev.trueorigin:trueorigin-android:<version>")
+}
+```
+
+`<version>` is the [latest release](https://github.com/trueorigin-dev/trueorigin-android/releases/latest)
+here. The SDK brings Google's Install Referrer library and `kotlinx-coroutines-core` with it.
+
+### Without Maven Central
+
 Download `trueorigin.aar` and `trueorigin.aar.sha256` from the
 [latest release](https://github.com/trueorigin-dev/trueorigin-android/releases/latest)
 and check the AAR against its SHA-256:
@@ -17,7 +31,8 @@ and check the AAR against its SHA-256:
 shasum -a 256 -c trueorigin.aar.sha256
 ```
 
-Put it in your app module's `libs/` folder and add it with the two libraries it uses:
+Put it in your app module's `libs/` folder and add it with the two libraries it uses,
+since the bare AAR has no POM:
 
 ```kotlin
 dependencies {
