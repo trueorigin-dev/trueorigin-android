@@ -1,0 +1,17 @@
+Copyright (c) 2026 KI Koehler International Ltd. All rights reserved.
+
+The TrueOrigin Android SDK is proprietary software, distributed in binary form only. It is
+licensed, not sold, and only to customers of TrueOrigin, under Section 6 ("SDK license")
+of the TrueOrigin Terms of Service: https://trueorigin.dev/terms
+
+In short, while you have a TrueOrigin account you may integrate the SDK, unmodified,
+into your apps and distribute it as an embedded part of those apps, solely to use the
+TrueOrigin service. You may not decompile, disassemble or reverse engineer it, modify
+it, or distribute it on its own or inside another SDK, library or developer tool. The
+Terms of Service govern; this summary does not replace them.
+
+THE SDK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, TO THE EXTENT THE LAW
+ALLOWS. LIABILITY IS LIMITED AS SET OUT IN THE TERMS OF SERVICE.
+
+KI Koehler International Ltd., Archiepiskopou Makariou III, 59, MOUYIAS TOWER,
+3rd floor, Flat/Office 301, 6017 Larnaca, Cyprus. hello@trueorigin.dev
